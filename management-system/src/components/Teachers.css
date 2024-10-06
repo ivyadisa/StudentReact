@@ -1,0 +1,18 @@
+/* src/components/Teachers.css */
+.teachers-container {
+  padding: 50px;
+  background-color: #f7f7f7;
+}
+
+.teacher-card {
+  background-color: #f7f7f7;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.teacher-card h3 {
+  margin-top: 0;
+  color: #333;
+}

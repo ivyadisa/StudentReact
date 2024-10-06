@@ -1,0 +1,28 @@
+/* src/components/Parents.css */
+.parents-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.parents-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.parents-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.parents-table th, .parents-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.parents-table th {
+  background-color: #f2f2f2;
+}

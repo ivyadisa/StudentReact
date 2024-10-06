@@ -1,0 +1,29 @@
+/* FillAssessmentResults.css */
+.fill-assessment-results-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.fill-assessment-results-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.fill-assessment-results-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.fill-assessment-results-table th,
+.fill-assessment-results-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.fill-assessment-results-table th {
+  background-color: #f2f2f2;
+}
