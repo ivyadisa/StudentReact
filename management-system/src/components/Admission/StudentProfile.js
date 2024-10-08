@@ -1,11 +1,11 @@
-// components/Admission/StudentProfile.js
+
 import React, { useState } from 'react';
 import './StudentProfile.css';
 
 const studentData = [
   { name: 'Ivy Ann', gender: 'Female', grade: 10, stream: 'A', dob: '2005-01-15', admissionNumber: 'A4590', photo: 'path/to/photo1.jpg' },
   { name: 'Wayne Runi', gender: 'Male', grade: 9, stream: 'B', dob: '2006-03-12', admissionNumber: 'A1234', photo: 'path/to/photo2.jpg' },
-  // Add more students as needed
+  
 ];
 
 function StudentProfile() {

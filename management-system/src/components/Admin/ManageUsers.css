@@ -1,0 +1,56 @@
+/* src/components/Admin/ManageUsers.css */
+.manage-users {
+  text-align: center;
+  margin: 20px;
+}
+
+.manage-users table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.manage-users th, .manage-users td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.manage-users button {
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: #FF6600;
+  color: #FFF;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.manage-users button:hover {
+  background-color: #DD5500;
+}
+
+.add-user-form {
+  margin: 20px 0;
+}
+
+.add-user-form input,
+.add-user-form select {
+  margin: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-user-form button {
+  padding: 8px 15px;
+  background-color: #FF6600;
+  color: #FFF;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-user-form button:hover {
+  background-color: #DD5500;
+}

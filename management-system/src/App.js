@@ -16,12 +16,18 @@ import Parents from './components/Parents';
 import Navbar from './components/Common/Navbar';
 import Footer from './components/Common/Footer';
 import './Styles/global.css';
+import AdminDashboard from './components/Admin/AdminDashboard';
+import AdminRoute from './components/Common/AdminRoute';
+import ManageUsers from './components/Admin/ManageUsers';
+import ViewReports from './components/Admin/ViewReports';
+import Settings from './components/Admin/Settings';
+
 
 function App() {
   return (
     <Router>
       <div className="app-container">
-        {/* Navbar will be displayed on all pages */}
+        {}
         <Navbar />
 
         <Routes>
@@ -38,7 +44,12 @@ function App() {
           <Route path="/examination/fill-results" element={<FillAssessmentResults />} />
           <Route path="/teachers" element={<Teachers />} />
           <Route path="/parents" element={<Parents />} />
-        </Routes>
+          <Route path="/admin/dashboard" element={<AdminDashboard />} />
+          <Route path="/admin/dashboard" element={<AdminRoute element={<AdminDashboard />} />} />
+          <Route path="/admin/manage-users" element={<ManageUsers />} />
+          <Route path="/admin/view-reports" element={<ViewReports />} />
+          <Route path="/admin/settings" element={<Settings />} /> 
+         </Routes>
 
         {/* Footer will also be displayed on all pages */}
         <Footer />

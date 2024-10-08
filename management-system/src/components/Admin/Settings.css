@@ -1,0 +1,14 @@
+/* src/components/Admin/Settings.css */
+.settings {
+  text-align: center;
+  margin: 20px;
+}
+
+.setting-item {
+  margin: 20px 0;
+}
+
+.setting-item label {
+  font-size: 18px;
+  margin-right: 10px;
+}
