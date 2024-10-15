@@ -6,8 +6,8 @@ const studentData = [
   { name: 'Ivy Ann', gender: 'Female', grade: 10, stream: 'A', dob: '2011-01-15', admissionNumber: 'A4590', photo: 'path/to/photo1.jpg' },
   { name: 'Wayne Runi', gender: 'Male', grade: 4, stream: 'B', dob: '2014-03-12', admissionNumber: 'A1234', photo: 'path/to/photo2.jpg' },
   { name: 'Daisy Makokha', gender: 'Female', grade: 9, stream: 'B', dob: '2012-03-10', admissionNumber: 'A1235', photo: 'path/to/photo2.jpg' },
-   { name: 'Munir Khan', gender: 'Male', grade: 6, stream: 'A', dob: '2013-03-11', admissionNumber: 'A1237', photo: 'path/to/photo2.jpg' },
-  
+  { name: 'Munir Khan', gender: 'Male', grade: 6, stream: 'A', dob: '2013-03-11', admissionNumber: 'A1237', photo: 'path/to/photo2.jpg' },
+   { name: 'Hildah Passion', gender: 'Femaale', grade: 5, stream: 'B', dob: '2015-03-11', admissionNumber: 'A1236', photo: 'path/to/photo2.jpg' },
 ];
 
 function StudentProfile() {

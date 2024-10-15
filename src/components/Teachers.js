@@ -6,8 +6,9 @@ import './Teachers.css';
 function Teachers() {
   const teachers = [
     { firstName: 'EMMANUEL', surname: 'ODOUR', phone: '0795719572', email: 'ottimanuel714@gmail.com' },
-    // Add more teachers here if necessary
-  ];
+    { firstName: 'Ruth', surname: 'Naomi', phone: '0795719567', email: 'ruthnaomil714@gmail.com' },
+  
+ ];
 
   const handleView = (email) => {
     alert(`Viewing ${email}`);

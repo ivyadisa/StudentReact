@@ -21,6 +21,9 @@ import AdminRoute from './components/Common/AdminRoute';
 import ManageUsers from './components/Admin/ManageUsers';
 import ViewReports from './components/Admin/ViewReports';
 import Settings from './components/Admin/Settings';
+import FeeManagement from './components/Finance/FeeManagement';
+import ExpenseManagement from './components/Finance/ExpenseManagement';
+import FinancialReports from './components/Finance/FinancialReports';
 
 // Custom Layout component to handle navbar and footer logic
 function Layout({ children }) {
@@ -62,6 +65,9 @@ function App() {
           <Route path="/admin/manage-users" element={<ManageUsers />} />
           <Route path="/admin/view-reports" element={<ViewReports />} />
           <Route path="/admin/settings" element={<Settings />} />
+          <Route path="/finance/fee-management" element={<FeeManagement />} />
+          <Route path="/finance/expense-management" element={<ExpenseManagement />} />
+          <Route path="/finance/financial-reports" element={<FinancialReports />} />
         </Routes>
       </Layout>
     </Router>
