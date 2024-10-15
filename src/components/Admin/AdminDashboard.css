@@ -1,0 +1,24 @@
+/* src/components/Admin/AdminDashboard.css */
+.admin-dashboard {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.admin-dashboard ul {
+  list-style: none;
+  padding: 0;
+}
+
+.admin-dashboard ul li {
+  margin: 10px 0;
+}
+
+.admin-dashboard ul li a {
+  text-decoration: none;
+  color: #FF6600;
+  font-weight: bold;
+}
+
+.admin-dashboard ul li a:hover {
+  color: #02282D;
+}

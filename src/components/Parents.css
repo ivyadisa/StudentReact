@@ -1,0 +1,49 @@
+.parents-container {
+  padding: 20px;
+  background-color: #f7efe5;
+  margin: 0 auto;
+  max-width: 1500px;
+}
+
+.parents-header {
+  color: #02282d;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.parents-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.parents-table th, .parents-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.parents-table th {
+  background-color: #f0f0f0;
+}
+
+.action-btn {
+  padding: 5px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.view-btn {
+  color: #007bff;
+}
+
+.delete-btn {
+  color: #dc3545;
+}
+
+.action-btn:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}

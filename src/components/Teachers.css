@@ -1,0 +1,66 @@
+.teachers-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color:  #f7efe5;
+  height: 500px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+thead {
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+.action-buttons button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.action-buttons button:hover {
+  opacity: 0.7;
+}
+
+.action-buttons button svg {
+  font-size: 18px;
+  color: #ff6600;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pagination-btn {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.pagination-btn.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.pagination-btn:hover {
+  background-color: #ddd;
+}

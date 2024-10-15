@@ -1,0 +1,69 @@
+.student-profile-container {
+  padding: 50px;
+  background-color: #f7efe5;
+  max-width: 1500px; /* Optional: Set max width for readability */
+  margin: 0 auto; /* Center the container */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px; /* Rounded corners */
+  min-height:500px ;
+}
+
+h2 {
+  color: #02282d;
+  font-size: 24px;
+  text-align: center; /* Center the heading */
+}
+
+.search-container {
+  margin-bottom: 20px; /* Space below the search input */
+  display: flex; /* Use flexbox to align the input and button */
+  justify-content: center; /* Center the search input and button */
+}
+
+.search-container input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px; /* Space between input and button */
+  flex: 1; /* Allow input to take available space */
+  max-width: 400px; /* Optional: Limit the width of the input */
+}
+
+.search-container button {
+  padding: 10px 20px;
+  background-color: #FF6600; /* Button color */
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background-color: #218838; /* Darker button color on hover */
+}
+
+.profile-content {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  margin-top: 20px;
+}
+
+.profile-photo {
+  flex: 1; /* Allow the photo section to take up space */
+  max-width: 150px; /* Limit the photo width */
+  margin-right: 20px; /* Space between photo and details */
+}
+
+.profile-photo img {
+  width: 100%; /* Make the photo responsive */
+  border-radius: 10px; /* Rounded corners for the photo */
+}
+
+.profile-details {
+  flex: 2; /* Allow the details section to take up more space */
+  font-size: 18px; /* Set a readable font size */
+}
+
+.profile-details p {
+  margin: 5px 0; /* Space between paragraphs */
+}

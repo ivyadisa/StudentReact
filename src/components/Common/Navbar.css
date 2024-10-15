@@ -1,0 +1,28 @@
+/* src/components/Common/Navbar.css */
+.navbar {
+  background-color: #02282D;
+  padding: 10px;
+  height: 50PX;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 15PX;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}

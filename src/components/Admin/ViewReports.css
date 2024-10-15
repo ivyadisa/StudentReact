@@ -1,0 +1,20 @@
+/* src/components/Admin/ViewReports.css */
+.view-reports {
+  text-align: center;
+  margin: 20px;
+}
+
+.report {
+  background-color: #F7EFE5;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.report h2 {
+  color: #02282D;
+}
+button{
+  background-color: #DD5500;
+}

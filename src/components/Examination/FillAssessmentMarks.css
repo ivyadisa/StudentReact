@@ -1,0 +1,35 @@
+/* src/components/Examination/FillAssessmentMarks.css */
+.fill-assessment-container {
+  padding: 40px;
+  background-color: #e0f7fa;
+}
+
+.assessment-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.assessment-form input,
+.assessment-form select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.assessment-form button {
+  background-color: #0288d1;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.assessment-form button:hover {
+  background-color: #0277bd;
+}
