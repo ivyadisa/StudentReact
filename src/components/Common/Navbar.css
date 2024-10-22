@@ -1,28 +1,71 @@
-/* src/components/Common/Navbar.css */
+/* Base navbar styles */
 .navbar {
   background-color: #02282D;
   padding: 10px;
-  height: 50PX;
+  height: 50px;
 }
 
 .navbar ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
-  margin: 15PX;
+  margin: 15px;
   padding: 0;
 }
 
 .navbar li {
+  position: relative; /* Needed for dropdown positioning */
   margin: 0 10px;
 }
 
-.navbar a {
-  color: white;
-  text-decoration: none;
+/* Main navbar link buttons (Dashboard, Teachers, Parents) */
+.navbar button, .navbar a {
+  background-color: transparent;
+  border: none;
+  color: #F7EFE5; /* Light cream for text */
   font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none; /* Remove underline */
 }
 
+/* Hover styling for Finance, Examination, Admission */
+.navbar a.finance:hover,
+.navbar a.examination:hover,
+.navbar a.admission:hover {
+  color: black; /* Change text to black on hover for these links */
+}
+
+/* No hover color change for Dashboard, Teachers, Parents */
 .navbar a:hover {
-  text-decoration: underline;
+  text-decoration: none; /* Ensure no underline on hover */
+}
+
+/* Dropdown menu styles */
+.navbar ul li ul.dropdown-content {
+  display: none; /* Hidden by default, shown conditionally via React */
+  position: absolute;
+  background-color: #F7EFE5; /* Light cream background for dropdown */
+  min-width: 160px;
+  top: 40px; /* Adjust the dropdown position */
+  z-index: 1;
+}
+
+.navbar ul li ul.dropdown-content li {
+  padding: 12px 16px;
+  background-color: #F7EFE5;
+}
+
+.navbar ul li ul.dropdown-content li a {
+  color: #02282D; /* Dark teal text in dropdown */
+}
+
+.navbar ul li ul.dropdown-content li a:hover {
+  background-color: #FF6600; /* Orange background on hover in dropdown */
+  color: #F7EFE5; /* Cream text when hovered */
+}
+
+/* Show dropdown when button is clicked in React */
+.navbar ul li:hover ul.dropdown-content {
+  display: block;
 }

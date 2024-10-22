@@ -18,6 +18,9 @@ function Dashboard() {
         <Link to="/parents" className="card">
           Parents
         </Link>
+        <Link to="/finance" className="card">
+          Finance
+        </Link>
       </div>
     </div>
   );

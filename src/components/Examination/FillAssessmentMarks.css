@@ -1,11 +1,11 @@
 /* src/components/Examination/FillAssessmentMarks.css */
 .fill-assessment-container {
   padding: 40px;
-  background-color: #e0f7fa;
+  background-color:#f7EFE5;
 }
 
 .assessment-form {
-  background-color: #fff;
+  background-color: #f7EFE5;
   padding: 30px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
