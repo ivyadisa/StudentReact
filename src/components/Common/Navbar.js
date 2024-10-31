@@ -18,31 +18,10 @@ function Navbar() {
     <nav className="navbar">
       <ul>
         {/* Dashboard link */}
-        <li><Link to="/dashboard">Dashboard</Link></li>
+       <li><Link to="/dashboard">Dashboard</Link></li>
 
-        {/* Finance Dropdown */}
-        <li className="dropdown">
-          <button onClick={() => toggleDropdown('finance')}>Finance</button>
-          {activeDropdown === 'finance' && (
-            <ul className="dropdown-content">
-              <li><Link to="/finance/expense-management">Expense Management</Link></li>
-              <li><Link to="/finance/fee-management">Fee Management</Link></li>
-              <li><Link to="/finance/financial-reports">Financial Reports</Link></li>
-            </ul>
-          )}
-        </li>
-
-        {/* Examination Dropdown */}
-        <li className="dropdown">
-          <button onClick={() => toggleDropdown('examination')}>Examination</button>
-          {activeDropdown === 'examination' && (
-            <ul className="dropdown-content">
-              <li><Link to="/examination/fill-marks">Fill Assessment Marks</Link></li>
-              <li><Link to="/examination/fill-results">Fill Assessment Results</Link></li>
-              <li><Link to="/examination/learning-areas">Learning Areas</Link></li>
-            </ul>
-          )}
-        </li>
+       
+      
 
         {/* Admission Dropdown */}
         <li className="dropdown">
@@ -57,6 +36,30 @@ function Navbar() {
             </ul>
           )}
         </li>
+          {/* Examination Dropdown */}
+        <li className="dropdown">
+          <button onClick={() => toggleDropdown('examination')}>Examination</button>
+          {activeDropdown === 'examination' && (
+            <ul className="dropdown-content">
+              <li><Link to="/examination/fill-marks">Fill Assessment Marks</Link></li>
+              <li><Link to="/examination/fill-results">Fill Assessment Results</Link></li>
+              <li><Link to="/examination/learning-areas">Learning Areas</Link></li>
+            </ul>
+          )}
+        </li>
+         {/* Finance Dropdown */}
+        <li className="dropdown">
+          <button onClick={() => toggleDropdown('finance')}>Finance</button>
+          {activeDropdown === 'finance' && (
+            <ul className="dropdown-content">
+              <li><Link to="/finance/expense-management">Expense Management</Link></li>
+              <li><Link to="/finance/fee-management">Fee Management</Link></li>
+              <li><Link to="/finance/financial-reports">Financial Reports</Link></li>
+            </ul>
+          )}
+        </li>
+
+
 
         {/* Teachers and Parents links */}
         <li><Link to="/teachers">Teachers</Link></li>
